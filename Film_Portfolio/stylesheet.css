@@ -45,6 +45,22 @@ li a {
   color: gray;
   text-decoration: none;
 }
+/* unvisited link */
+a:link {
+    color: gray;
+}
+
+
+/* mouse over link */
+a:hover {
+    color: #202020;
+}
+
+/* selected link */
+a:active {
+    color: #202020;
+}
+
 
 * {box-sizing:border-box}
 
