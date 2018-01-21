@@ -14,7 +14,7 @@ body {
 
 }
 
-#navBar{}
+#navBar{max-width:100%}
 
 #navBarLeft{
   float: left;
