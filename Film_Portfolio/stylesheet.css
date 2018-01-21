@@ -14,23 +14,26 @@ body {
 
 }
 
-#navBar{max-width:100%}
+#navBar{width:100%}
 
 #navBarLeft{
   float: left;
   display: inline-block;
   text-decoration: none;
+  width:100%;
 }
 #logo{
   text-align: center;
   display: inline-block;
   margin-left: 280px;
   margin-top: 25px;
+  width:100%;
 }
 
 #navBarRight{
   float: right;
   display: inline-block;
+  width:100%;
 }
 
 li {
@@ -39,11 +42,13 @@ li {
   font-family: helvetica;
   margin-bottom:40px;
   margin-top: 25px;
+  width:100%
 }
 
 li a {
   color: gray;
   text-decoration: none;
+  width:100%;
 }
 /* unvisited link */
 a:link {
