@@ -1,3 +1,5 @@
+html{font-size:60%;}
+@media(min-width:60em){html{font-size: 100%}}
 body {
   width: 100%;
   height:auto;
@@ -8,47 +10,54 @@ body {
  margin-left:  auto; /* 1 */
 
  max-width: 1300px; /* 2 */
+ width:100%
 
  padding-right: 10px; /* 3 */
  padding-left:  10px; /* 3 */
 
 }
 
-#navBar{width:100%}
+#navBar{
+  width:100%;
+  margin:auto;
+  font-size: 20px;
+}
 
 #navBarLeft{
   float: left;
   display: inline-block;
   text-decoration: none;
-  width:100%;
+  width: 33.3%;
+
 }
 #logo{
   text-align: center;
   display: inline-block;
-  margin-left: 280px;
   margin-top: 25px;
-  width:100%;
+  width: 33.3%;
 }
 
 #navBarRight{
   float: right;
   display: inline-block;
-  width:100%;
+  width: 33.3%;
 }
 
 li {
   margin-right: 10px;
   display: inline-block;
   font-family: helvetica;
-  margin-bottom:40px;
   margin-top: 25px;
-  width:100%
+
+
 }
 
 li a {
   color: gray;
   text-decoration: none;
-  width:100%;
+  width:25%;
+  font-size:100%;
+
 }
 /* unvisited link */
 a:link {
@@ -71,9 +80,11 @@ a:active {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: 100%;
   position: relative;
   margin: auto;
+  margin-top: 40px;
+
 }
 
 /* Hide the images by default */
@@ -126,7 +137,7 @@ a:active {
   font-family:helvetica;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
+  top: 0px;
   margin-bottom: 5px;
 }
 
@@ -162,4 +173,10 @@ a:active {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.recentWork{
+  text-align: center;
+  margin-top: 80px;
+  color: #202020;
 }
