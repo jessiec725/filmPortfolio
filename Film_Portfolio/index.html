@@ -6,6 +6,23 @@
     <title>Roger's Website</title>
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
   <script src="myscripts.js"></script>
+  <style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 300px 300px 300px;
+  padding: 10px;
+  grid-gap: 20px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+
+}
+</style>
   </head>
   <body>
     <div id='container'>
@@ -22,18 +39,20 @@
             </div>
 
             <div id="logo">
-                <img src="https://image.flaticon.com/icons/png/512/37/37828.png" width="50px" height="50px">
+                <img src="https://78.media.tumblr.com/avatar_d828329be5d6_128.pnj" width="78px" height="78px">
             </div>
 
       <!--Right side of navigation/ website links-->
             <div id='navBarRight'>
               <ul>
-                  <li><a href="#">ABOUT</a></li>
                   <li><a href="#">WORKS</a></li>
-                  <li><a href="#">BLOG</a></li>
+                  <li><a href="#">ABOUT</a></li>
                   <li><a href="#">CONTACT</a></li>
+                  <li><a href="#">BLOG</a></li>
+
               </ul>
             </div>
+          </div>
             <br>
               <!-- Slideshow container -->
         <div class="slideshow-container">
@@ -69,14 +88,29 @@
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
         </div>
+        <div class="recentWork">
+        <h1>Recent Work</h1>
 
-
-
-            </div>
+      </div>
+        <div class="grid-container">
+        <div class="grid-item"><img src="https://farm2.staticflickr.com/1443/25852412696_1e4843b4a9_z.jpg" width="400px" height="250px"></div>
+        <div class="grid-item"><img src="http://4.bp.blogspot.com/-bahoT9-tRn4/UYQmxSCtFdI/AAAAAAAAA6s/QQzILTQba18/s1600/art-camera-cool-photography-toy-Favim.com-446299.jpg" width="400px" height="250px"></div>
+        <div class="grid-item"><img src="https://i.pinimg.com/736x/73/a3/b3/73a3b33deda75f89c680116812928dd6--clarks-ocean-waves.jpg" width="400px" height="250px"></div>
+        <div class="grid-item"><img src="http://s3.india.com/travel/wp-content/uploads/2015/11/travel-photography-tips1.jpg" width="400px" height="250px"></div>
+        <div class="grid-item"><img src="https://www.shutterbug.com/images/1216frame001.jpg" width="400px" height="250px"></div>
+        <div class="grid-item"><img src="http://mycoolhomepage.com/wp-content/uploads/2015/03/jane-field-lewis-cool-photography-how-to-take-cool-photographs-636x310.gif" width="400px" height="250px"></div>
+        <div class="grid-item"><img src="https://favim.com/orig/201108/27/coca-in-life-coke-cool-photography-Favim.com-132016.jpg" width="400px" height="250px"></div>
+        <div class="grid-item"><img src="https://s1.favim.com/orig/26/cool-photography-pink-pool-spray-Favim.com-226316.jpg" width="400px" height="250px"></div>
+        <div class="grid-item"><img src="http://www.bollywoodshaadis.com/img-scale/670/article-20151236311563142991000.jpg" width="400px" height="250px"></div>
+        </div>
           </div>
           <div id='spotLight'>
           </div>
+
     </div>
+
+
+
     <!-- Script for image slider-->
     <script>
     var slideIndex = 1;
