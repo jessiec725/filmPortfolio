@@ -5,6 +5,9 @@ body {
   height:auto;
   font-family: helvetica;
 }
+p {
+  color: gray;
+}
 
 #container {
  margin-right: auto; /* 1 */
