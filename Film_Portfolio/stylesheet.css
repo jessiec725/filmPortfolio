@@ -236,3 +236,14 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
+#leftAside {
+  float: left;
+  display: inline-block;
+  margin-top: 120px;
+}
+#rightAside {
+  float: right;
+  display: inline-block;
+  margin-top: 120px;
+}
